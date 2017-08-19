@@ -1,0 +1,89 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.jumbotron {
+}
+
+.carousel-inner > .item > img {
+	width: 1500px;
+	height: 450px;
+}
+
+/* Nav Bar */
+
+.navbar-inverse {
+	background: #0f58a5;
+	border: none;
+	border-radius: 0;
+	margin-bottom: auto;
+	padding: 5px;
+}
+.navbar-inverse .navbar-brand {
+	color: #ee706b;
+}
+
+.navbar-nav > li > a {
+	padding-top: 25px !important;
+	padding-bottom: 5px !important;
+}
+.navbar-header > a {
+	padding-top: 25px !important;
+	padding-bottom: 5px !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+	font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #e9453f; /*Sets the text hover color on navbar*/
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background: #e9453f; /*color for active box in nav*/
+}
+
+.cardJob {
+	width: 350px;
+	height: 450px;
+	background-color: #3c84ca;
+	margin: 20px;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.centerCards {
+	justify-content: center;
+	display: flex;
+}
+
+.phone {
+	float: right;
+}
+
+.cardLabel {
+	font-size: 26px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(229, 236, 249, .7);
+}
+
+.cardText {
+	background-color: rgba(229, 236, 249, .7);
+}
+
+.iconSized {
+	width: 50%;
+	height: auto;
+	text-align: center;
+}
+
+.list-group-item {
+	background-color: rgba(229, 236, 249, .7);
+	border: 0;
+}
