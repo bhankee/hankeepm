@@ -57,6 +57,31 @@ ul li {
 .navbar-inverse .navbar-nav > .active > a:focus {
 	background: #e9453f; /*color for active box in nav*/
 }
+.navbar-default .navbar-brand {
+	color: #e9453f;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-brand,
+.navbar-nav > li > a {
+	text-shadow: none;
+}
+
+.arrow {
+	text-align: center;
+}
+
+.glyphicon {
+	font-size: 76px;
+	font-weight: 100;
+	line-height: 2;
+}
+
+.cardRow {
+	margin-top: 150px;
+}
 
 .cardJob {
 	width: 350px;
