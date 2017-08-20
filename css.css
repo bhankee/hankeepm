@@ -4,23 +4,34 @@ body {
 
 .jumbotron {
 }
-
+.carousel-inner {
+	background-color: white;
+}
 .carousel-inner > .item > img {
 	width: 1500px;
-	height: 450px;
+	height: 550px;
+}
+
+.carousel img {
+	min-width: 100%;
+}
+
+ul li {
+	text-align: left;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav.navbar-center {
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+	}
 }
 
 /* Nav Bar */
 
-.navbar-inverse {
-	background: #0f58a5;
-	border: none;
-	border-radius: 0;
-	margin-bottom: auto;
-	padding: 5px;
-}
-.navbar-inverse .navbar-brand {
-	color: #ee706b;
+.navbar-collapse {
+	background-color: #0f58a5;
 }
 
 .navbar-nav > li > a {
